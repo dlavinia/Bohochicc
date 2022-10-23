@@ -1,10 +1,10 @@
 <template>
 
-    <div class="card" v-for="post of posts" :key="post.id">
+    <div class="card" v-for="post of posts" :key="post.titulo">
 
-        <img :src="post.url_main_img">
-        <h1>{{ post.title}}</h1>
-        <p>{{ post.material}}</p>
+        <img :src="post.link">
+        <h1>{{ post.titulo}}</h1>
+        <p>{{ post.link}}</p>
     </div>
 </template>
 <script>
@@ -20,7 +20,7 @@ export default {
     },
     mounted() {
         Post.getPosts().then(res => {
-            this.posts = res.data.content
+            this.posts = res.data
 
         })
     }

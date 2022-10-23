@@ -3,14 +3,6 @@ import { api } from "@/services/api"
 
 export default {
     getPosts:() => {
-        return api.get('post')
+        return api.get('gallery.json')
     },
-
-    save:(post) => {
-        return api.post('post', post)
-    },
-    uploadMain:(mainimg) => {
-        return api.post('upload/main_img', mainimg)
-    },
-
 }
