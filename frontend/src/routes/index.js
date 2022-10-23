@@ -1,12 +1,17 @@
 import { createRouter, createWebHashHistory } from "vue-router";
 import AboutApp from '@/pages/about-app'
 import GalleryPage from '@/pages/gallery-page'
-import RegisterPage from '@/pages/register-post'
-
+import HomaPage from '@/pages/home'
  
 const router = createRouter({
     history: createWebHashHistory(),
-    routes: [{
+    routes: [
+        {
+            path: '/',
+            name: 'home',
+            component: HomaPage
+            },
+        {
         path: '/about',
         name: 'about',
         component: AboutApp
@@ -15,11 +20,6 @@ const router = createRouter({
             path: '/gallery',
             name: 'gallery',
             component: GalleryPage
-        },
-        {
-            path: '/register',
-            name: 'register',
-            component: RegisterPage
         },] 
 });
 

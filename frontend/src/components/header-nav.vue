@@ -1,14 +1,14 @@
 <template>
     <header>
         <nav>
-            <img src="https://dlart-images.s3.amazonaws.com/1.png" alt="Logo Dlart" >
+            <img src="https://raw.githubusercontent.com/dlavinia/Bohochicc/73fdf1cfdb77aec3c0d841c16d8549bd74aceac5/images/logos/2.svg" alt="Logo Dlart" >
            <ul>
             <li> <a href="#">home</a> </li>
             <li> <a href="#">galeria</a> </li>
             <li> <a href="#">sobre</a> </li>
            </ul>
         </nav>
-        #F1D2BB #DA7A2D
+        <!---#F1D2BB #DA7A2D-->
     </header>
 </template>
 <script>
@@ -21,30 +21,32 @@
 <style scoped>
     header {
         background-color: var(--color-nav);
-        width: 20%;
+        width: 100%;
         margin-right: 1rem;
-        height: 100vh;
-        box-shadow: 1px 2px 3px #aaa;
     }
     nav{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: space-between;
         align-items: center;
-        justify-content: center;
-
         font-family: 'Josefin Sans', sans-serif;
         text-transform: uppercase;
+        padding: 20px 2rem;
     }
     ul{
+        display: flex;
         list-style: none;
     }
 
     ul li{
         margin: 2rem;
     }
+    ul li a{
+        font-weight: 600;
+        transition: all 0.4s;
+    }
     nav img{
-        width: 150px;
-        height: 150px;
-        margin: 5rem 0;
+        width: 400px;
+        margin: 1rem;
     }
 </style>
