@@ -2,14 +2,12 @@
     <section class="cards">
         <div class="card" v-for="post of posts" :key="post.titulo">
             <figure>
-                <img :src="post.link">
+                <img :src="post.link" >
 
                 <figcaption> 
                     <h1>{{ post.titulo}}</h1>
                 </figcaption>
             </figure>
-        
-        
 
         </div>
     </section>

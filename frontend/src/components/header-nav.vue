@@ -3,12 +3,12 @@
         <nav>
             <img src="https://raw.githubusercontent.com/dlavinia/Bohochicc/73fdf1cfdb77aec3c0d841c16d8549bd74aceac5/images/logos/2.svg" alt="Logo Dlart" >
            <ul>
-            <li> <a href="#">home</a> </li>
-            <li> <a href="#">galeria</a> </li>
-            <li> <a href="#">sobre</a> </li>
+            <li>  <router-link to="/">Home</router-link> </li>
+            <li> <router-link to="/gallery">Galeria </router-link> </li>
+            <li> <router-link to="/about">Sobre </router-link>  </li>
            </ul>
         </nav>
-        <!---#F1D2BB #DA7A2D-->
+        
     </header>
 </template>
 <script>

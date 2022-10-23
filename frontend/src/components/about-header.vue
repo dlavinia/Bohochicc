@@ -8,7 +8,6 @@
                     <li><div class="social-icon"></div></li>
                     <li><div class="social-icon"></div></li>
                     <li><div class="social-icon"></div></li>
-                    <li><div class="social-icon"></div></li>
                 </ul>
             </div>
            
