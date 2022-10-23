@@ -1,34 +1,38 @@
 [
-    {
-      "titulo": "armário",
-      "link": "https://raw.githubusercontent.com/dlavinia/Bohochicc/master/images/gallery/1.png"
-    },
-    {
-      "titulo": "nichos",
-      "link": "https://raw.githubusercontent.com/dlavinia/Bohochicc/master/images/gallery/2.png"
-    },
-    {
-      "titulo": "cama",
-      "link": "https://raw.githubusercontent.com/dlavinia/Bohochicc/master/images/gallery/3.png"
-    },
-    {
-      "titulo": "cabeceira",
-      "link": "https://raw.githubusercontent.com/dlavinia/Bohochicc/master/images/gallery/4.png"
-    },
-    {
-      "titulo": "cestos de palha",
-      "link": "https://raw.githubusercontent.com/dlavinia/Bohochicc/master/images/gallery/5.png"
-    },
-    {
-      "titulo": "espelho",
-      "link": "https://raw.githubusercontent.com/dlavinia/Bohochicc/master/images/gallery/6.png"
-    },
-    {
-      "titulo": "prateleiras",
-      "link": "https://raw.githubusercontent.com/dlavinia/Bohochicc/master/images/gallery/7.png"
-    },
-    {
-      "titulo": "mesa",
-      "link": "https://raw.githubusercontent.com/dlavinia/Bohochicc/master/images/gallery/8.png"
-    }
-  ]
+  {
+    "titulo": "cabeceira",
+    "link": "https://raw.githubusercontent.com/dlavinia/Bohochicc/master/images/gallery/4.png"
+  },
+  {
+    "titulo": "espelho",
+    "link": "https://raw.githubusercontent.com/dlavinia/Bohochicc/master/images/gallery/7.png"
+  },
+  {
+    "titulo": "mesa",
+    "link": "https://raw.githubusercontent.com/dlavinia/Bohochicc/master/images/gallery/9.png"
+  },
+  {
+    "titulo": "armário",
+    "link": "https://raw.githubusercontent.com/dlavinia/Bohochicc/master/images/gallery/1.png"
+  },
+  {
+    "titulo": "cestos de palha",
+    "link": "https://raw.githubusercontent.com/dlavinia/Bohochicc/master/images/gallery/5.png"
+  },
+  {
+    "titulo": "nichos",
+    "link": "https://raw.githubusercontent.com/dlavinia/Bohochicc/master/images/gallery/2.png"
+  },
+  {
+    "titulo": "cantinho",
+    "link": "https://raw.githubusercontent.com/dlavinia/Bohochicc/master/images/gallery/6.png"
+  },
+  {
+    "titulo": "cama",
+    "link": "https://raw.githubusercontent.com/dlavinia/Bohochicc/master/images/gallery/3.png"
+  },
+  {
+    "titulo": "prateleiras",
+    "link": "https://raw.githubusercontent.com/dlavinia/Bohochicc/master/images/gallery/8.png"
+  }
+]
