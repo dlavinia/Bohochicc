@@ -1,6 +1,6 @@
 <template>
      <section class="about-header">
-            <div class="img"></div>
+            <img  src="@/assets/IMG_20221023_165109.jpg" class="img">
             <div class="infos">
                 <h1> Débora Melo</h1>
                 <h2> 19 anos | Natal, RN</h2>
@@ -30,12 +30,12 @@
     .about-header .img{
         width: 200px;
         height: 200px;
-        border-radius: 50%;
         background-color: grey;
-        box-shadow: 1px 2px 3px #888;
     }
     .about-header .infos {
         margin-left: 3rem;
+
+        color: var(--color-text);
     }
     .about-header .infos ul{
         display: flex;
@@ -44,6 +44,7 @@
     }
     .about-header .infos h1{
         font-size: 45px;
+        color: var(--color-text);
     }
     .about-header .infos ul li~li{
         margin-left: 10px;
@@ -54,6 +55,5 @@
         height: 45px;
         background-color: #ccc;
         border-radius: 50%;
-        box-shadow: 1px 2px 3px #888;
     }
 </style>
