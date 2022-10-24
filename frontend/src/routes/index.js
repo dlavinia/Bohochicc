@@ -1,5 +1,5 @@
 import { createRouter, createWebHashHistory } from "vue-router";
-import Contact from '@/pages/contact'
+import ContactPage from '@/pages/contact'
 import GalleryPage from '@/pages/gallery-page'
 import HomaPage from '@/pages/home'
  
@@ -14,7 +14,7 @@ const router = createRouter({
         {
         path: '/contact',
         name: 'contact',
-        component: Contact
+        component: ContactPage
         },
         {
             path: '/gallery',

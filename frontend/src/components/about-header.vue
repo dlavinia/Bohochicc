@@ -20,40 +20,4 @@
 </script>
 <style>
 
-    .about-header{
-        display: flex;
-        margin: 0 5rem;
-        width: 100%;
-        align-items: center;
-
-    }
-    .about-header .img{
-        width: 200px;
-        height: 200px;
-        background-color: grey;
-    }
-    .about-header .infos {
-        margin-left: 3rem;
-
-        color: var(--color-text);
-    }
-    .about-header .infos ul{
-        display: flex;
-        list-style: none;
-        margin-top: 1rem;
-    }
-    .about-header .infos h1{
-        font-size: 45px;
-        color: var(--color-text);
-    }
-    .about-header .infos ul li~li{
-        margin-left: 10px;
-    }
-
-    .social-icon{
-        width: 45px;
-        height: 45px;
-        background-color: #ccc;
-        border-radius: 50%;
-    }
 </style>
