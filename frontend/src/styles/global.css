@@ -3,8 +3,8 @@
 :root{
     --color-nav:#fff;
     --color-backgroud:#fff;
-    --color-primary:rgb(218, 122, 45);
-    --color-secudary: rgb(241, 211, 187);
+    --color-primary:#d97b2e;
+    --color-secudary: #f1d3bb;
     --color-text: rgb(218, 124, 47);
 }
 *{
