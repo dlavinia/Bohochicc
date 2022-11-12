@@ -23,13 +23,14 @@
     bottom: 0;
     display: flex;
     overflow-x: scroll;
-    margin-bottom: 1rem;
+    height: auto;
 }
 .images img{
     width: 450px;
-    margin-left: 1rem;
+    margin: 5px;
 }
-.images .bottom{
-    margin-top: 2rem;
+.images img:nth-child(2n+1) {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 </style>

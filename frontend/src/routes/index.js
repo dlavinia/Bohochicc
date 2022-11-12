@@ -2,6 +2,7 @@ import { createRouter, createWebHashHistory } from "vue-router";
 import ContactPage from '@/pages/contact'
 import GalleryPage from '@/pages/gallery-page'
 import HomaPage from '@/pages/home'
+import DetailsPost from '@/pages/details'
  
 const router = createRouter({
     history: createWebHashHistory(),
@@ -20,6 +21,10 @@ const router = createRouter({
             path: '/gallery',
             name: 'gallery',
             component: GalleryPage
+        },
+        {
+            path: '/:title',
+            component: DetailsPost
         },] 
 });
 
