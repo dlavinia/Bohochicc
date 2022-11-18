@@ -1,7 +1,7 @@
 <template>
     <section class="cards">
-        <div class="card" v-for="post of posts" :key="post.titulo">
-            <router-link :to="post.titulo">
+        <div class="card" v-for="post of posts" :key="post.slug">
+            <router-link :to="post.slug">
                 <figure>
 
                     <img :src="post.link">
@@ -29,6 +29,7 @@ export default {
     mounted() {
         Post.getPosts().then(res => {
             this.posts = res.data
+            console.log(res.data)
 
         })
     }
@@ -36,7 +37,7 @@ export default {
 </script>
 <style scoped>
 .cards {
-    background: rgb(218, 122, 45);
+    background: #da7a2d;
     background: linear-gradient(0deg, rgba(218, 122, 45, 1) 0%, rgba(241, 210, 187, 1) 50%, rgba(255, 255, 255, 1) 100%);
     display: flex;
     flex-flow: column wrap;
@@ -100,4 +101,6 @@ figcaption:hover {
 img {
     width: 100%;
 }
+
+
 </style>

@@ -1,22 +1,20 @@
 <template>
     <div class="container">
-       <GalleryPosts></GalleryPosts>
-   </div>
-   </template>
+        <GalleryPosts></GalleryPosts>
+    </div>
+</template>
    
-   <script>
-   import '@/styles/global.css'
-   import GalleryPosts from '@/components/gallery'
+<script>
+import '@/styles/global.css'
+import GalleryPosts from '@/components/gallery'
+
+export default {
+    name: "GalleryPage",
+    components: {
+        GalleryPosts
+    }
+}
+</script>
    
-   export default {
-       name: "GalleryPage",
-       components: {
-       GalleryPosts
-   }
-   }
-   </script>
-   
-   <style>
-    
-   </style>
+
    
