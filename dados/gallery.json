@@ -2,38 +2,57 @@
 
   {
     "titulo": "espelho",
-    "link": "https://raw.githubusercontent.com/dlavinia/Bohochicc/master/images/gallery/7.png"
+    "slug": "espelho",
+    "link": "https://raw.githubusercontent.com/dlavinia/Bohochicc/master/images/gallery/7.png",
+    "descricao":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+    
   },
   {
     "titulo": "mesa de cabeceira",
-    "link": "https://raw.githubusercontent.com/dlavinia/Bohochicc/master/images/gallery/4.png"
+    "slug": "mesa-de-cabeceira",
+    "link": "https://raw.githubusercontent.com/dlavinia/Bohochicc/master/images/gallery/4.png",
+    "descricao":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
   },
   {
     "titulo": "mesa",
-    "link": "https://raw.githubusercontent.com/dlavinia/Bohochicc/master/images/gallery/9.png"
+    "slug": "mesa",
+    "link": "https://raw.githubusercontent.com/dlavinia/Bohochicc/master/images/gallery/9.png",
+    "descricao":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
   },
   {
     "titulo": "armário",
-    "link": "https://raw.githubusercontent.com/dlavinia/Bohochicc/master/images/gallery/1.png"
+    "slug": "armario",
+    "link": "https://raw.githubusercontent.com/dlavinia/Bohochicc/master/images/gallery/1.png",
+    "descricao":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
   },
   {
     "titulo": "cestos de palha",
-    "link": "https://raw.githubusercontent.com/dlavinia/Bohochicc/master/images/gallery/5.png"
+    "slug": "cestos-de-palha",
+    "link": "https://raw.githubusercontent.com/dlavinia/Bohochicc/master/images/gallery/5.png",
+    "descricao":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
   },
   {
     "titulo": "nichos",
-    "link": "https://raw.githubusercontent.com/dlavinia/Bohochicc/master/images/gallery/2.png"
+    "slug": "nichos",
+    "link": "https://raw.githubusercontent.com/dlavinia/Bohochicc/master/images/gallery/2.png",
+    "descricao":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
   },
   {
     "titulo": "escrivaninha",
-    "link": "https://raw.githubusercontent.com/dlavinia/Bohochicc/master/images/gallery/6.png"
+    "slug": "escrivaninha",
+    "link": "https://raw.githubusercontent.com/dlavinia/Bohochicc/master/images/gallery/6.png",
+    "descricao":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
   },
   {
     "titulo": "cama",
-    "link": "https://raw.githubusercontent.com/dlavinia/Bohochicc/master/images/gallery/3.png"
+    "slug": "cama",
+    "link": "https://raw.githubusercontent.com/dlavinia/Bohochicc/master/images/gallery/3.png",
+    "descricao":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
   },
   {
     "titulo": "prateleiras",
-    "link": "https://raw.githubusercontent.com/dlavinia/Bohochicc/master/images/gallery/8.png"
+    "slug": "prateleiras",
+    "link": "https://raw.githubusercontent.com/dlavinia/Bohochicc/master/images/gallery/8.png",
+    "descricao":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
   }
 ]
