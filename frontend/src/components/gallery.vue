@@ -42,7 +42,7 @@ export default {
     display: flex;
     flex-flow: column wrap;
     align-content: center;
-    height: 1900px;
+    height: 2350px;
     padding: 1rem;
 }
 
