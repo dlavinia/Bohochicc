@@ -21,6 +21,9 @@ footer{
     justify-content: center;
     align-items: center;
     padding:1rem;
+    width: 100%;
+    margin-top: -90px;
+    background-color: transparent;
 }
 
 ul{
