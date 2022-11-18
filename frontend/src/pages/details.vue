@@ -1,28 +1,36 @@
 <template>
-    <div>{{ post.title }}</div>
+    <div>dei deuusnskd
+        <div>{{title}}</div>
+        <div v-repeat="post in posts">{{title}}</div>
+    </div>
 </template>
 <script>
-
-import api from '@/services/api'
+import Post from '@/services/posts'
 
 export default {
     name: 'DetailsPost',
     data() {
         return {
-            post: '',
+            posts: '',
             title: '',
         }
     },
     created() {
         this.title = this.$route.params.title
+        this.getPostDetails()
     },
+
     methods: {
         getPostDetails() {
-            api.get(`gallery.json?title=${this.title}`).then((response) => {
-                console.log(response);
+            
+            Post.getPosts(this.title).then((res) => {
+                this.posts = res.data
+                console.log(this.posts)
             });
+           
         },
     },
+   
 
 }
 </script>

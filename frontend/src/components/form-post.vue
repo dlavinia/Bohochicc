@@ -48,42 +48,16 @@
                     <button class="bnt-upload"> <img src="@/assets/upload.png" alt="upload" title="Enviar Imagem">
                     </button>
                 </div>
+
+                <button>Enivar</button>
             </form>
         </section>
     </div>
 </template>
 <script>
-import Post from '@/services/posts'
+
 export default {
     name: 'FormPost',
-
-    data(){
-        return {
-            fileMain: '',
-            url_main: ''
-        }
-
-    },
-    methods: {
-        handleFileUpload( event ){
-				this.fileMain = event.target.files[0];
-		},
-        
-        uploadMainImg(){
-            let formData = new FormData();
-
-            formData.append('fileMain', this.fileMain);
-
-            Post.uploadMain(formData
-            ).then(function () {
-                console.log('SUCCESS!!');
-            })
-            .catch(function () {
-                console.log('FAILURE!!');
-            });
-        }
-    }
-
 }
 </script>
 <style>
