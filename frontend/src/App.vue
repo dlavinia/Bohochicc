@@ -1,10 +1,9 @@
 <template>
+    <HeaderNav></HeaderNav>
     <div class="page">
-        <HeaderNav></HeaderNav>
         <router-view></router-view>
-        <FooterApp></FooterApp>
-       
     </div>
+    <FooterApp></FooterApp>
 </template>
 <script>
 import './styles/global.css'

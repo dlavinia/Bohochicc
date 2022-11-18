@@ -23,7 +23,8 @@ const router = createRouter({
             component: GalleryPage
         },
         {
-            path: '/:title',
+            path: '/:slug',
+            name: 'details',
             component: DetailsPost
         },] 
 });
