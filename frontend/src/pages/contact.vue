@@ -1,7 +1,8 @@
 <template>
     <section class="contact">
+        
           <form>
-           
+            <h2> Entre em contato conosco!</h2>
             <div class="field">
                 <input name="nome" id="nome" type="text" required>
                 <label>Nome</label>
@@ -18,7 +19,7 @@
                 <textarea name="mensagem" id="mensagem" cols="30" rows="6" required></textarea>
                 <label>Mensagem</label>
             </div>
-           
+            <button> Enviar </button>
           </form>
           <img src="@/assets/img-contact.svg" alt="" srcset="">
     </section>
@@ -28,12 +29,17 @@
        name: 'ContactPage'
    }
 </script>
-<style>
+<style scoped>
     .contact{
         margin: 2rem;
         display: flex;
         justify-content: center;
     }
+
+    h2{
+        color: #DA7A2D;
+    }
+
     form{
         width: 40%;
     }
@@ -64,7 +70,16 @@
         transition: all .5s;
         
     }
+    .contact form button{
+        padding: 12px 48px;
+        font-size: 18px;
+        border:none;
+        background-color: #DA7A2D;
+        color: white;
+        text-transform: uppercase;
+        margin-top: 1.2rem;
 
+    }
     .contact form input:focus-visible ~ label,
     .contact form input:valid ~ label{
         font-size: 18px;
