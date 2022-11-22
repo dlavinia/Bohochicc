@@ -102,5 +102,20 @@ img {
     width: 100%;
 }
 
+@media only screen and (max-width: 600px) {
+    .cards::before,
+.cards::after {
+    display: none;
 
+}
+.cards {
+    height: auto;
+}
+.card:last-child{
+    margin-bottom: 100px;
+}
+.card {
+    width: 90%;
+}
+}
 </style>
