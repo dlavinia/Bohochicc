@@ -61,4 +61,15 @@ export default {
         width: 100%;
         padding: 2rem;
     }
+
+    @media only screen and (max-width: 600px) {
+        .details{
+            flex-direction: column;
+        }
+        .details .infos{
+        width: 100%;
+        padding: 1rem 2rem;
+        margin-bottom: 100px;
+    }
+    }
 </style>
