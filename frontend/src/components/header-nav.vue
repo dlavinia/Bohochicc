@@ -1,8 +1,10 @@
 <template>
     <header>
         <nav>
+            <router-link to="/">
             <img src="https://raw.githubusercontent.com/dlavinia/Bohochicc/73fdf1cfdb77aec3c0d841c16d8549bd74aceac5/images/logos/2.svg"
                 alt="Logo Dlart">
+            </router-link>
             <ul>
                 <li>
                     <router-link to="/">Home</router-link>
@@ -33,6 +35,7 @@ header {
 }
 
 nav {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -61,6 +64,7 @@ nav img {
 }
 @media only screen and (max-width: 600px) {
     nav{
+        flex-direction: column;
         padding:0;
     }
 }
