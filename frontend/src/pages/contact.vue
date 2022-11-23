@@ -94,7 +94,15 @@
     .contact form textarea:focus-visible ~ label,
     .contact form textarea:valid ~ label{
         font-size: 18px;
-        top: 4px;
+        top:16px;
     }
+@media only screen and (max-width: 600px) {
+    .contact img{
+        display: none;
+    }
+    form{
+        width: 90%;
+    }
+}
 
 </style>
